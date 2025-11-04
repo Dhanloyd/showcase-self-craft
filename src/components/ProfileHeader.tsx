@@ -31,16 +31,16 @@ const ProfileHeader = () => {
         />
         
         <div className="flex-1">
-          <div className="flex items-center gap-2 mb-2">
+          <div className="flex items-center gap-2 mb-3">
             <h1 className="text-3xl font-bold text-foreground">Bryl Lim</h1>
             <Badge variant="secondary" className="bg-primary/10 text-primary border-0">
               Available for work
             </Badge>
           </div>
           
-          <p className="text-lg text-muted-foreground mb-1">Software Engineer • Content Creator</p>
+          <p className="text-lg text-muted-foreground mb-3">Software Engineer • Content Creator</p>
           
-          <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+          <div className="flex items-center gap-4 text-sm text-muted-foreground mb-6">
             <span className="flex items-center gap-1">
               <MapPin className="w-4 h-4" />
               Metro Manila, Philippines
