@@ -11,9 +11,9 @@ interface ExperienceItemProps {
 }
 
 const ExperienceItem = ({ title, company, location, period, isVerified }: ExperienceItemProps) => (
-  <div className="flex gap-4 relative">
+  <div className="flex gap-4 relative group">
     <div className="flex-shrink-0 flex flex-col items-center">
-      <div className={`w-3 h-3 rounded-full z-10 ${isVerified ? 'bg-foreground' : 'border-2 border-muted-foreground bg-background'}`} />
+      <div className={`w-3 h-3 rounded-full z-10 transition-colors cursor-pointer ${isVerified ? 'bg-foreground' : 'border-2 border-muted-foreground bg-background'} group-hover:bg-foreground group-hover:border-foreground`} />
       <div className="w-0.5 flex-1 bg-border mt-2 last:hidden" />
     </div>
     <div className="flex-1 pb-8">
