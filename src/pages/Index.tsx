@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
 import SocialLinks from "@/components/SocialLinks";
 import Speaking from "@/components/Speaking";
+import MessageMe from "@/components/MessageMe";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -14,25 +15,21 @@ const Index = () => {
       <div className="max-w-5xl mx-auto px-4 py-8">
         <ProfileHeader />
         
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-          {/* Left Column - About */}
-          <div className="lg:col-span-3 space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left Column */}
+          <div className="lg:col-span-2 space-y-8">
             <About />
             <TechStack />
+            <Projects />
+            <Speaking />
+            <Certifications />
           </div>
           
-          {/* Right Column - Experience */}
-          <div className="lg:col-span-2 space-y-8">
+          {/* Right Column */}
+          <div className="lg:col-span-1 space-y-8">
             <Experience />
-            <Projects />
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <Certifications />
-              <div className="space-y-8">
-                <SocialLinks />
-                <Speaking />
-              </div>
-            </div>
+            <SocialLinks />
+            <MessageMe />
           </div>
         </div>
         
