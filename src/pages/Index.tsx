@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
 import SocialLinks from "@/components/SocialLinks";
 import Speaking from "@/components/Speaking";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -34,6 +35,8 @@ const Index = () => {
             </div>
           </div>
         </div>
+        
+        <Footer />
       </div>
     </div>
   );
