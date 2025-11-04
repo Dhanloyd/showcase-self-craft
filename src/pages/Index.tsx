@@ -15,14 +15,14 @@ const Index = () => {
         <ProfileHeader />
         
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-          {/* Left Column - About (Wider) */}
-          <div className="lg:col-span-2 space-y-8">
+          {/* Left Column - About */}
+          <div className="lg:col-span-3 space-y-8">
             <About />
             <TechStack />
           </div>
           
-          {/* Right Column - Experience (Less Wide) */}
-          <div className="lg:col-span-3 space-y-8">
+          {/* Right Column - Experience */}
+          <div className="lg:col-span-2 space-y-8">
             <Experience />
             <Projects />
             
