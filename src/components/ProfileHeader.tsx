@@ -18,8 +18,8 @@ const ProfileHeader = () => {
   };
 
   return (
-    <header className="bg-card rounded-xl shadow-[var(--shadow-card)] p-8 mb-8">
-      <div className="flex justify-end mb-4">
+    <header className="bg-card rounded-xl shadow-[var(--shadow-card)] p-6 mb-8 max-w-4xl mx-auto">
+      <div className="flex justify-end mb-3">
         <ThemeToggle />
       </div>
       

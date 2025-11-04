@@ -11,18 +11,18 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-5xl mx-auto px-4 py-8">
         <ProfileHeader />
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Column */}
-          <div className="lg:col-span-1 space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
+          {/* Left Column - About (Wider) */}
+          <div className="lg:col-span-2 space-y-8">
             <About />
             <TechStack />
           </div>
           
-          {/* Right Column */}
-          <div className="lg:col-span-2 space-y-8">
+          {/* Right Column - Experience (Less Wide) */}
+          <div className="lg:col-span-3 space-y-8">
             <Experience />
             <Projects />
             

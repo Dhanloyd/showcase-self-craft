@@ -2,14 +2,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const About = () => {
   return (
-    <Card className="shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-hover)] transition-shadow">
+    <Card className="shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-hover)] transition-all border-l-4 border-l-primary">
       <CardHeader>
-        <CardTitle className="flex items-center gap-2">
+        <CardTitle className="flex items-center gap-2 text-foreground">
           <span className="text-2xl">👨‍💻</span>
-          About
+          About Me
         </CardTitle>
       </CardHeader>
-      <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
+      <CardContent className="space-y-3 text-muted-foreground leading-relaxed text-sm">
         <p>
           I'm a full-stack software engineer specializing in developing solutions with JavaScript, Python, and PHP. I work on complex projects including building modern web applications, mobile apps, search engine optimization, digital marketing, and raising code standards.
         </p>
