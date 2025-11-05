@@ -29,10 +29,10 @@ const ProjectCard = ({ title, description, tech, link }: ProjectCardProps) => (
 const Projects = () => {
   const projects = [
     {
-      title: "CodeCard",
-      description: "Online word/flashcard for programmers",
+      title: "Budget Tracker App",
+      description: "Track your expenses and manage budget",
       tech: "JavaScript, React",
-      link: "#",
+      link: "https://dhanloyd.github.io/budget-tracker-app/",
     },
     {
       title: "DNAFIN",
