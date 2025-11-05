@@ -16,9 +16,11 @@ const ProjectCard = ({ title, description, tech, link }: ProjectCardProps) => (
     <div className="flex items-center justify-between">
       <p className="text-xs text-muted-foreground">{tech}</p>
       {link && (
-        <Button variant="ghost" size="sm" className="h-auto p-0 text-primary">
-          <ExternalLink className="w-4 h-4" />
-        </Button>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <Button variant="ghost" size="sm" className="h-auto p-0 text-primary">
+            <ExternalLink className="w-4 h-4" />
+          </Button>
+        </a>
       )}
     </div>
   </div>
