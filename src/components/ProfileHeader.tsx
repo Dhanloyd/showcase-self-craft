@@ -2,6 +2,7 @@ import { Mail, MapPin, Download, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import ThemeToggle from "@/components/ThemeToggle";
+import profileImage from "@/assets/profile.jfif";
 
 const ProfileHeader = () => {
   const handleDownloadCV = () => {
@@ -25,8 +26,8 @@ const ProfileHeader = () => {
       
       <div className="flex flex-col md:flex-row gap-6 items-start">
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
-          alt="Profile"
+          src={profileImage}
+          alt="Bryl Lim Profile"
           className="w-24 h-24 rounded-full object-cover"
         />
         
